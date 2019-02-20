@@ -1,0 +1,14 @@
+to run the application
+
+
+$mvn clean
+
+
+$mvn package && java -jar target/gs-spring-boot-0.1.0.jar	
+
+
+in web browser: http://localhost:8080/ returns 
+Hello World, Spring!
+
+in web brower: http://localhost:8080/abc/ returns
+Hello World, Spring abc!
